@@ -1,6 +1,7 @@
 #!/bin/sh
 export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE=$HOME/.zsh_history
+export HOMEBREW_NO_ENV_HINTS=TRUE
 setopt appendhistory
 
 # some useful options (man zshoptions)
